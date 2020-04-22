@@ -1,0 +1,37 @@
+.video__link {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	height: 100%;
+	padding: 30px;
+	position: relative;
+}
+
+.video__link:before {
+	content: '';
+	display: block;
+	background-image: url('../../../img/icons/play.svg');
+	width: 41px;
+	height: 41px;
+	z-index: 2;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+
+.video__link:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(000,000,000,0.5);
+	z-index: 1;
+}
+
+.video__link:hover:after,
+.video__link:focus::after {
+	background: rgba(000,000,000,0.6);
+}

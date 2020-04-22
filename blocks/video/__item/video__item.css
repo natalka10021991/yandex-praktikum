@@ -1,0 +1,9 @@
+.video__item {
+	border-radius: 5px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 323px;
+	height: 100%;
+	overflow: hidden;
+}
+

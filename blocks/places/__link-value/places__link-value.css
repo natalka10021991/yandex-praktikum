@@ -1,0 +1,11 @@
+.places__link-value {
+	font-size: 18px;
+	line-height: 30px;
+	text-decoration-line: underline;
+	transition: opacity .2s;
+}
+
+.places__link-value:hover,
+.places__link-value:focus {
+	opacity: 0.8;
+}
